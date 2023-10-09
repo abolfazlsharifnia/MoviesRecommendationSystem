@@ -8,8 +8,7 @@ This project, `MoviesSuggestion.ipynb`, implements a hybrid recommendation syste
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/abolfazlsharifnia/MoviesRecommendationSystem.git
+`git clone https://github.com/abolfazlsharifnia/MoviesRecommendationSystem.git`
 
 Open the MoviesSuggestion.ipynb notebook in a Jupyter Notebook or Google Colab environment.
 
@@ -17,19 +16,20 @@ Run the cells in the notebook, replacing the userId and title with the desired v
 
 Retrieve the recommendations displayed in the output of the last cell of the notebook.
 
-## Usage
+2. Clone the repository:
+
 
 Load your movies and ratings datasets:
 
-import pandas as pd
+`import pandas as pd`
 
-movies = pd.read_csv('movies.csv')
-ratings = pd.read_csv('ratings.csv')
+`movies = pd.read_csv('movies.csv')`
+`ratings = pd.read_csv('ratings.csv')`
 
 Define the user ID and the movie title:
 
-userId = 5
-title = 'Toy Story (1995)'
+`userId = 5`
+`title = 'Toy Story (1995)'`
 
 Open the MoviesSuggestion.ipynb notebook in a Jupyter Notebook or Google Colab environment.
 
